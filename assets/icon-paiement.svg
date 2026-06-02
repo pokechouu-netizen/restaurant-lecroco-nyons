@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Carte -->
+  <rect x="6" y="14" width="52" height="36" rx="5" fill="white" stroke="#E0D5C8" stroke-width="2"/>
+  <rect x="6" y="22" width="52" height="8" fill="#4A0E0E" opacity="0.2"/>
+  <!-- Puce -->
+  <rect x="14" y="34" width="12" height="9" rx="2" fill="#F5D5A8" stroke="#E0D5C8" stroke-width="1.5"/>
+  <line x1="14" y1="38" x2="26" y2="38" stroke="#E0D5C8" stroke-width="0.8"/>
+  <line x1="20" y1="34" x2="20" y2="43" stroke="#E0D5C8" stroke-width="0.8"/>
+  <!-- Numero -->
+  <circle cx="42" cy="39" r="2" fill="#E0D5C8"/>
+  <circle cx="48" cy="39" r="2" fill="#E0D5C8"/>
+</svg>

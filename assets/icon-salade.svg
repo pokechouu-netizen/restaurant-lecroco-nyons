@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Bol -->
+  <path d="M10 34 L14 54 C15 58 19 60 24 60 L40 60 C45 60 49 58 50 54 L54 34Z" fill="#E8E0D4" stroke="#C8BBA8" stroke-width="1.2"/>
+  <!-- Salade verte -->
+  <ellipse cx="32" cy="32" rx="24" ry="10" fill="#6B9E47"/>
+  <!-- Feuilles -->
+  <path d="M16 30 C20 22 26 24 28 30" fill="#5D8C3E"/>
+  <path d="M26 28 C30 20 36 22 38 28" fill="#7DB856"/>
+  <path d="M36 30 C40 22 46 24 48 30" fill="#5D8C3E"/>
+  <!-- Tomate -->
+  <circle cx="22" cy="28" r="4" fill="#E05040"/>
+  <circle cx="22" cy="28" r="4" fill="none" stroke="#C83830" stroke-width="0.8"/>
+  <!-- Oeuf -->
+  <ellipse cx="40" cy="27" rx="4" ry="3.5" fill="#FFF8E0" stroke="#E8D88C" stroke-width="0.8"/>
+  <circle cx="40" cy="27" r="1.8" fill="#F0A830"/>
+  <!-- Carotte -->
+  <path d="M30 26 L34 22 L32 28Z" fill="#F0982A"/>
+</svg>

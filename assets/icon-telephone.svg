@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <path d="M18 8 C18 5 20 3 23 3 L41 3 C44 3 46 5 46 8 L46 56 C46 59 44 61 41 61 L23 61 C20 61 18 59 18 56Z" fill="white" stroke="#E0D5C8" stroke-width="2"/>
+  <rect x="22" y="10" width="20" height="36" rx="2" fill="#4A0E0E" opacity="0.08"/>
+  <circle cx="32" cy="52" r="3.5" stroke="#E0D5C8" stroke-width="2" fill="white"/>
+  <!-- Ondes d'appel -->
+  <path d="M48 18 C52 22 52 30 48 34" stroke="#4A0E0E" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <path d="M52 14 C58 20 58 32 52 38" stroke="#4A0E0E" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+</svg>

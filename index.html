@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le Croc'O — Restauration facile et gentille à emporter ou à croquer sur place à Nyons | Cuisine française &amp; méditerranéenne</title>
+  <meta name="description" content="Le Croc'O à Nyons : cuisine provençale et méditerranéenne, tout fait maison. Formule entrée + plat + dessert à 21,90 euros. Cuisine ouverte, à emporter ou sur place.">
+  <meta name="theme-color" content="#4A0E0E">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="assets/favicon-192x192.png">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://le-croco-nyons.fr/">
+  <meta property="og:title" content="Le Croc'O — Restaurant à Nyons">
+  <meta property="og:description" content="Le Croc'O à Nyons : cuisine provençale et méditerranéenne, tout fait maison. Formule entrée + plat + dessert à 21,90 euros. Cuisine ouverte, privatisation possible.">
+  <meta property="og:image" content="https://le-croco-nyons.fr/assets/logo2.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Le Croc'O — Restaurant à Nyons">
+  <meta name="twitter:description" content="Cuisine provençale et méditerranéenne fait maison. Formule entrée + plat + dessert à 21,90 euros. Au cœur de Nyons.">
+  <meta name="twitter:image" content="https://le-croco-nyons.fr/assets/logo2.png">
+
+  <!-- Structured Data / Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Le Croc'O",
+    "legalName": "Le Croc'O",
+    "image": "https://le-croco-nyons.fr/assets/logo2.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "30 Place du Colonel Barrillon",
+      "addressLocality": "Nyons",
+      "postalCode": "26110",
+      "addressRegion": "Drôme",
+      "addressCountry": "FR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 44.3611,
+      "longitude": 5.1389
+    },
+    "telephone": "+33475261843",
+    "url": "https://le-croco-nyons.fr",
+    "sameAs": [
+      "https://www.facebook.com/croco.nyons/?locale=fr_FR",
+      "https://www.instagram.com/croconyons/"
+    ],
+    "servesCuisine": ["Française", "Méditerranéenne"],
+    "priceRange": "$$",
+    "currenciesAccepted": "EUR",
+    "paymentAccepted": "Cash, Credit Card",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "12:00",
+        "closes": "14:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Thursday", "Friday", "Saturday"],
+        "opens": "19:00",
+        "closes": "21:30"
+      }
+    ],
+    "hasMenu": {
+      "@type": "Menu",
+      "url": "https://le-croco-nyons.fr/#carte",
+      "hasMenuSection": {
+        "@type": "MenuSection",
+        "name": "Menu du jour",
+        "description": "Entrée + Plat ou Plat + Dessert",
+        "offers": {
+          "@type": "Offer",
+          "price": "21.90",
+          "priceCurrency": "EUR"
+        }
+      }
+    },
+    "acceptsReservations": "True",
+    "smokingAllowed": false,
+    "amenityFeature": [
+      {"@type": "LocationFeatureSpecification", "name": "Terrasse", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Accès PMR", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "À emporter", "value": true}
+    ],
+    "foundingDate": "2010",
+    "description": "Le Croc'O à Nyons : cuisine provençale et méditerranéenne, tout fait maison. Formule entrée + plat + dessert à 21,90 euros. Cuisine ouverte, à emporter ou sur place."
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============================================
+       NAVIGATION
+       ============================================ -->
+  <nav class="nav" role="navigation" aria-label="Navigation principale">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="Le Croc'O — Accueil">
+        <img src="assets/logo2.png" alt="Logo Le Croc'O" class="nav-logo-img">
+        Le Croc'O
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#histoire">Notre Histoire</a></li>
+        <li><a href="#menu-du-jour">Menu du Jour</a></li>
+        <li><a href="#carte">La Carte</a></li>
+        <li><a href="#engagements">Engagements</a></li>
+        <li><a href="#infos">Infos & Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <div class="nav-socials">
+          <a href="https://www.instagram.com/croconyons/" target="_blank" rel="noopener" aria-label="Instagram Le Croc'O">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/croco.nyons/?locale=fr_FR" target="_blank" rel="noopener" aria-label="Facebook Le Croc'O">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+        </div>
+        <button class="btn nav-cta" data-phone-trigger>Réserver</button>
+      </div>
+
+      <div class="nav-mobile-actions">
+        <button class="btn btn-accent btn-sm nav-mobile-cta" data-phone-trigger>Réserver</button>
+        <button class="nav-burger" aria-label="Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile overlay -->
+  <div class="nav-mobile-overlay">
+    <a href="#histoire">Notre Histoire</a>
+    <a href="#menu-du-jour">Menu du Jour</a>
+    <a href="#carte">La Carte</a>
+    <a href="#engagements">Engagements</a>
+    <a href="#infos">Infos & Contact</a>
+    <button class="btn nav-mobile-cta" data-phone-trigger>Réserver</button>
+    <div class="nav-socials">
+      <a href="https://www.instagram.com/croconyons/" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+      </a>
+      <a href="https://www.facebook.com/croco.nyons/?locale=fr_FR" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      </a>
+    </div>
+  </div>
+
+
+  <!-- ============================================
+       SECTION 1 : HERO
+       ============================================ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="assets/hero.webp" alt="Le Croc'O — restaurant à Nyons" class="hero-bg-image parallax-bg" data-speed="0.3" loading="eager">
+    </div>
+    <div class="hero-overlay"></div>
+    <canvas id="particles-canvas" class="hero-particles"></canvas>
+
+    <!-- Croco SVG discret -->
+    <svg class="hero-croco-deco" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M10 20 Q20 5 40 15 Q60 25 80 10 Q100 0 110 20 Q100 35 80 25 Q60 15 40 30 Q20 40 10 20Z" fill="currentColor" opacity="0.08"/>
+    </svg>
+
+    <div class="hero-content">
+      <img src="assets/croco-logo-dore.png" alt="Le Croc'O logo" class="hero-logo" width="80" height="80">
+      <div class="hero-ornament" aria-hidden="true"></div>
+      <h1 class="text-shimmer">Le Croc'O</h1>
+      <p class="hero-subtitle">Restauration facile et gentille &mdash; à emporter ou à croquer sur place &mdash; Nyons</p>
+      <div class="hero-cta">
+        <button class="btn btn-primary" data-phone-trigger>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Réserver
+        </button>
+        <a href="#carte" class="btn btn-outline">Découvrir la carte</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <span>Découvrir</span>
+      <div class="scroll-arrow"></div>
+    </div>
+
+    <!-- Wave transition -->
+    <div class="section-wave">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+        <path d="M0,40 C360,0 720,60 1080,20 C1260,0 1380,30 1440,20 L1440,60 L0,60Z" fill="var(--creme)"/>
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- ============================================
+       SECTION 2 : HISTOIRE DU RESTAURANT
+       ============================================ -->
+  <section class="histoire" id="histoire">
+    <div class="container">
+      <div class="histoire-grid">
+        <div class="histoire-text reveal-left">
+          <span class="section-tag">Notre Histoire</span>
+          <h2>Le Croc'O,<br>c'est Jawad</h2>
+          <p>Jawad a grandi à Nyons, dans la même rue que le restaurant. Après 30 ans passés en cuisine, il connaît son métier sur le bout des doigts.</p>
+          <p>Sa cuisine est provençale et méditerranéenne, généreuse et sincère. Au Croc'O, tout est fait maison : les plats, les desserts, les sauces. Une cuisine ouverte où l'on voit tout se préparer sous vos yeux.</p>
+          <p>À emporter ou à croquer sur place, la formule entrée + plat + dessert à 21,90 &euro; est le best-seller de la maison.</p>
+          <div class="counters-row reveal">
+            <div class="counter-item">
+              <span class="counter-value" data-target="30">0</span><span class="counter-value">+</span>
+              <div class="counter-label">ans en cuisine</div>
+            </div>
+            <div class="counter-item">
+              <span class="counter-value" data-target="21" data-suffix=",90€">0</span>
+              <div class="counter-label">la formule</div>
+            </div>
+            <div class="counter-item">
+              <span class="counter-value" data-target="100">0</span><span class="counter-value">%</span>
+              <div class="counter-label">fait maison</div>
+            </div>
+          </div>
+        </div>
+        <div class="histoire-visual reveal-right">
+          <div class="histoire-image-wrapper">
+            <img src="assets/ambiance-table.jpg" alt="Ambiance du restaurant Le Croc'O, table dressee avec produits frais" loading="lazy">
+          </div>
+          <div class="histoire-deco-leaf"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================
+       SECTION 3 : MENU DU JOUR (dynamique Google Sheet)
+       ============================================ -->
+  <section class="menu-du-jour" id="menu-du-jour">
+    <div class="container">
+      <span class="section-tag reveal">Chaque jour</span>
+      <h2 class="reveal">Le Menu du Jour</h2>
+      <p class="menu-intro reveal">Composé chaque matin avec les produits du marché.</p>
+
+      <div class="menu-grid reveal">
+        <!-- Box 1 : Formule & plats du jour -->
+        <div class="menu-du-jour-card" id="menu-du-jour-content">
+          <div class="menu-du-jour-header">
+            <img src="assets/croco-icon.svg" alt="Le Croc'O" class="menu-du-jour-croco">
+            <h3>Formule du jour</h3>
+            <span class="menu-du-jour-price" id="menu-price">21,90 &euro;</span>
+          </div>
+          <div class="menu-du-jour-formula" id="menu-formula">
+            <p><strong>Entrée + Plat + Dessert</strong> — notre best-seller !</p>
+          </div>
+          <div class="menu-du-jour-items" id="menu-items">
+            <!-- Rempli dynamiquement par le Google Sheet -->
+            <div class="menu-placeholder">
+              <p>Chargement du menu...</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box 2 : Engagement & reservation -->
+        <div class="menu-engagement-card">
+          <h3>Notre engagement</h3>
+          <p>Chaque jour, Jawad compose un menu inspiré des produits frais du moment. <strong>Tout est fait maison</strong>, des entrées aux desserts.</p>
+          <div class="menu-engagement-cta">
+            <button class="btn btn-primary" data-phone-trigger>Réserver ma table</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================
+       SECTION 4 : LA CARTE (dynamique Google Sheet — onglet CARTE)
+       ============================================ -->
+  <section class="carte" id="carte">
+    <div class="container">
+      <span class="section-tag reveal">Nos Fiertés</span>
+      <h2 class="reveal">La Carte</h2>
+      <p class="carte-intro reveal">Cuisine provençale et méditerranéenne, tout fait maison.</p>
+
+      <!-- Onglets catégories -->
+      <div class="carte-tabs reveal" role="tablist">
+        <button class="carte-tab active" data-tab="plats" role="tab" aria-selected="true">Le Menu</button>
+        <button class="carte-tab" data-tab="desserts" role="tab" aria-selected="false">Desserts</button>
+        <button class="carte-tab" data-tab="glaces" role="tab" aria-selected="false">Glaces & Sorbets</button>
+        <button class="carte-tab" data-tab="boissons" role="tab" aria-selected="false">Boissons</button>
+        <button class="carte-tab" data-tab="enfants" role="tab" aria-selected="false">Enfants & Goûter</button>
+      </div>
+
+      <div class="carte-content" id="carte-content">
+
+        <!-- TAB : Le Menu (Entrées + Plats + Fromages) -->
+        <div class="carte-panel active" id="panel-plats" role="tabpanel">
+          <div class="carte-categorie">
+            <h3 class="carte-categorie-titre">Entrées</h3>
+            <div class="carte-items">
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">Entrée du jour</div></div>
+                <div class="carte-item-prix">5,90 &euro;</div>
+              </div>
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">Affinade de Nyons</div></div>
+                <div class="carte-item-prix">7,90 &euro;</div>
+              </div>
+            </div>
+          </div>
+          <div class="carte-categorie">
+            <h3 class="carte-categorie-titre">Plats</h3>
+            <p class="carte-note-sm">Servis avec légumes de saison</p>
+            <div class="carte-items">
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">Plat du jour</div></div>
+                <div class="carte-item-prix"></div>
+              </div>
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">Burrata en salade repas</div></div>
+                <div class="carte-item-prix">15,50 &euro;</div>
+              </div>
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">Tajine poulet citron olives</div></div>
+                <div class="carte-item-prix">15,90 &euro;</div>
+              </div>
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">Assiette végane</div></div>
+                <div class="carte-item-prix">16,90 &euro;</div>
+              </div>
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">Curry d'agneau et riz basmati</div></div>
+                <div class="carte-item-prix">17,90 &euro;</div>
+              </div>
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">Tataki de thon</div></div>
+                <div class="carte-item-prix">17,90 &euro;</div>
+              </div>
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">Ravioles gratinées aux écrevisses</div></div>
+                <div class="carte-item-prix">18,90 &euro;</div>
+              </div>
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">Entrecôte sauce aux cèpes</div></div>
+                <div class="carte-item-prix">19,50 &euro;</div>
+              </div>
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">Souris d'agneau</div></div>
+                <div class="carte-item-prix">23,90 &euro;</div>
+              </div>
+            </div>
+          </div>
+          <div class="carte-categorie">
+            <h3 class="carte-categorie-titre">Fromages</h3>
+            <div class="carte-items">
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">Assiette de fromage</div></div>
+                <div class="carte-item-prix">6,00 &euro;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB : Desserts -->
+        <div class="carte-panel" id="panel-desserts" role="tabpanel">
+          <div class="carte-categorie">
+            <h3 class="carte-categorie-titre">Desserts</h3>
+            <div class="carte-items">
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">Moelleux Chocolat</div><div class="carte-item-desc">Coulis de framboise</div></div>
+                <div class="carte-item-prix">6,00 &euro;</div>
+              </div>
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">Tiramisu Café</div></div>
+                <div class="carte-item-prix">6,00 &euro;</div>
+              </div>
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">Tarte du Jour</div></div>
+                <div class="carte-item-prix">6,00 &euro;</div>
+              </div>
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">Dessert du Jour</div></div>
+                <div class="carte-item-prix">6,00 &euro;</div>
+              </div>
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">Nougat Glacé</div><div class="carte-item-desc">Coulis de framboise</div></div>
+                <div class="carte-item-prix">6,00 &euro;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB : Glaces & Sorbets -->
+        <div class="carte-panel" id="panel-glaces" role="tabpanel">
+          <div class="carte-categorie">
+            <h3 class="carte-categorie-titre">Glaces Artisanales</h3>
+            <div class="carte-items carte-items-compact">
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Café</div><div class="carte-item-desc">100% Arabica</div></div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Caramel Beurre Salé</div><div class="carte-item-desc">Au sel de Guérande</div></div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Chocolat</div><div class="carte-item-desc">Cœur de Guanaja 80% Valrhona</div></div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Pistache</div><div class="carte-item-desc">Pâte de pistache de Sicile, éclats</div></div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Spéculoos</div><div class="carte-item-desc">Véritables biscuits Lotus</div></div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Vanille</div><div class="carte-item-desc">Bourbon de Madagascar, beurre d'Échiré</div></div></div>
+            </div>
+          </div>
+          <div class="carte-categorie">
+            <h3 class="carte-categorie-titre">Sorbets Plein Fruit</h3>
+            <div class="carte-items carte-items-compact">
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Citron</div><div class="carte-item-desc">Citron de Sicile</div></div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Coco</div><div class="carte-item-desc">Lait de coco de l'océan Indien</div></div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Fraise</div><div class="carte-item-desc">Fraise Sengana, 62% de fruits</div></div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Framboise</div><div class="carte-item-desc">52% de fruits</div></div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Mangue</div><div class="carte-item-desc">Alphonso et Totapuri</div></div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Passion</div><div class="carte-item-desc">Fruit de la passion, 41% de fruits</div></div></div>
+            </div>
+          </div>
+          <div class="carte-glaces-tarifs">
+            <span class="carte-tarif-tag">1 boule — 3,00 &euro;</span>
+            <span class="carte-tarif-tag">2 boules — 5,00 &euro;</span>
+            <span class="carte-tarif-tag">3 boules — 6,00 &euro;</span>
+            <span class="carte-tarif-tag carte-tarif-sup">+ Crème fouettée — 0,50 &euro;</span>
+          </div>
+        </div>
+
+        <!-- TAB : Boissons -->
+        <div class="carte-panel" id="panel-boissons" role="tabpanel">
+          <div class="carte-categorie">
+            <h3 class="carte-categorie-titre">Alcools</h3>
+            <div class="carte-items carte-items-compact">
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Digestif</div><div class="carte-item-desc">Liqueur de thym, Jet</div></div><div class="carte-item-prix">6,00 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Pastis artisanal ou Ricard</div></div><div class="carte-item-prix">4,00 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Kir, Martini blanc</div></div><div class="carte-item-prix">4,50 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Le Planteur du Croc'O</div></div><div class="carte-item-prix">4,00 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Bière La Grihète 33 cl</div><div class="carte-item-desc">Blonde, blanche, ambrée — Nyons</div></div><div class="carte-item-prix">4,50 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Bivouak 33 cl</div><div class="carte-item-desc">Blonde, ambrée, blanche, Tangente</div></div><div class="carte-item-prix">4,50 &euro;</div></div>
+            </div>
+          </div>
+          <div class="carte-categorie">
+            <h3 class="carte-categorie-titre">Sans Alcool</h3>
+            <div class="carte-items carte-items-compact">
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Jus de fruit de pays 25 cl</div><div class="carte-item-desc">Pomme, poire, abricot</div></div><div class="carte-item-prix">3,00 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Sirop maison 50 cl</div><div class="carte-item-desc">Gingembre, fleur de thym, menthe poivrée</div></div><div class="carte-item-prix">2,50 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Sirop d'Eyguebelle 50 cl</div></div><div class="carte-item-prix">2,50 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Diabolo</div></div><div class="carte-item-prix">3,00 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Soda 33 cl</div></div><div class="carte-item-prix">3,00 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Eau en bouteille 50 cl</div></div><div class="carte-item-prix">2,00 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Eau gazeuse 50 cl</div></div><div class="carte-item-prix">3,00 &euro;</div></div>
+            </div>
+          </div>
+          <div class="carte-categorie">
+            <h3 class="carte-categorie-titre">Les Vins</h3>
+            <div class="carte-items carte-items-compact">
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Rouge Côte du Rhône Village Sablet</div><div class="carte-item-desc">Bouteille 75 cl</div></div><div class="carte-item-prix">17,50 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Rosé AOP Gigondas</div><div class="carte-item-desc">Bouteille 75 cl</div></div><div class="carte-item-prix">19,50 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Pichet 50 cl</div><div class="carte-item-desc">Rouge AOP Grignan / Rosé &amp; Blanc IGP Ardéchois</div></div><div class="carte-item-prix">11,00 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Pichet 25 cl</div></div><div class="carte-item-prix">6,50 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Le verre 15 cl</div></div><div class="carte-item-prix">4,00 &euro;</div></div>
+            </div>
+          </div>
+          <div class="carte-categorie">
+            <h3 class="carte-categorie-titre">Boissons Chaudes</h3>
+            <div class="carte-items carte-items-compact">
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Cappuccino</div></div><div class="carte-item-prix">3,50 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Chocolat chaud</div></div><div class="carte-item-prix">3,00 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Café ou noisette</div></div><div class="carte-item-prix">1,70 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Café au lait</div></div><div class="carte-item-prix">3,00 &euro;</div></div>
+              <div class="carte-item"><div class="carte-item-info"><div class="carte-item-nom">Thé ou infusion</div></div><div class="carte-item-prix">2,00 &euro;</div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB : Enfants & Goûter -->
+        <div class="carte-panel" id="panel-enfants" role="tabpanel">
+          <div class="carte-categorie">
+            <h3 class="carte-categorie-titre">Menu Enfant</h3>
+            <div class="carte-items">
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">1 Plat + 1 Dessert + Sirop</div><div class="carte-item-desc">Ravioles beurre blanc ou poulet au curry</div></div>
+                <div class="carte-item-prix">12,00 &euro;</div>
+              </div>
+            </div>
+          </div>
+          <div class="carte-categorie">
+            <h3 class="carte-categorie-titre">À l'heure du Goûter</h3>
+            <div class="carte-items">
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">1 Gaufre + 1 Boisson</div><div class="carte-item-desc">Thé, café, chocolat chaud, sirop, soda</div></div>
+                <div class="carte-item-prix">6,50 &euro;</div>
+              </div>
+              <div class="carte-item">
+                <div class="carte-item-info"><div class="carte-item-nom">1 Dessert + 1 Boisson</div><div class="carte-item-desc">Thé, café, chocolat chaud, sirop, soda</div></div>
+                <div class="carte-item-prix">7,50 &euro;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================
+       SECTION 4b : HORAIRES (dynamique Google Sheet — onglet HORAIRES)
+       ============================================ -->
+  <section class="horaires" id="horaires">
+    <div class="container">
+      <span class="section-tag reveal">Quand venir</span>
+      <h2 class="reveal">Nos Horaires</h2>
+
+      <div class="horaires-card reveal">
+        <div class="horaires-sheet" id="horaires-sheet">
+          <div class="jour-header">
+            <span>Jour</span>
+            <span>Midi</span>
+            <span>Soir</span>
+          </div>
+          <div class="jour">
+            <span class="jour-name">Lundi</span>
+            <span class="jour-midi ferme">Fermé</span>
+            <span class="jour-soir ferme">Fermé</span>
+          </div>
+          <div class="jour">
+            <span class="jour-name">Mardi</span>
+            <span class="jour-midi">12h – 14h</span>
+            <span class="jour-soir ferme">Fermé</span>
+          </div>
+          <div class="jour">
+            <span class="jour-name">Mercredi</span>
+            <span class="jour-midi">12h – 14h</span>
+            <span class="jour-soir ferme">Fermé</span>
+          </div>
+          <div class="jour">
+            <span class="jour-name">Jeudi</span>
+            <span class="jour-midi">12h – 14h</span>
+            <span class="jour-soir">19h – 21h30</span>
+          </div>
+          <div class="jour">
+            <span class="jour-name">Vendredi</span>
+            <span class="jour-midi">12h – 14h</span>
+            <span class="jour-soir">19h – 21h30</span>
+          </div>
+          <div class="jour">
+            <span class="jour-name">Samedi</span>
+            <span class="jour-midi">12h – 14h</span>
+            <span class="jour-soir">19h – 21h30</span>
+          </div>
+          <div class="jour">
+            <span class="jour-name">Dimanche</span>
+            <span class="jour-midi ferme">Fermé</span>
+            <span class="jour-soir ferme">Fermé</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================
+       SECTION 5 : ENGAGEMENTS & SAVOIR-FAIRE
+       ============================================ -->
+  <section class="engagements" id="engagements">
+    <div class="container">
+      <span class="section-tag reveal">Nos Valeurs</span>
+      <h2 class="reveal">Engagements &<br>Savoir-faire</h2>
+
+      <div class="engagements-grid stagger-children carousel-container" data-carousel>
+        <div class="engagement-card reveal">
+          <img src="assets/icon-chef.svg" alt="Chef" class="engagement-icon">
+          <h3>100% Fait Maison</h3>
+          <p>De l'entrée au dessert, tout est préparé sur place avec des produits frais et de qualité.</p>
+        </div>
+        <div class="engagement-card reveal">
+          <img src="assets/icon-salade.svg" alt="Salade" class="engagement-icon">
+          <h3>Adaptation alimentaire</h3>
+          <p>Régimes spéciaux, allergies, intolérances : nous adaptons nos plats à vos besoins.</p>
+        </div>
+        <div class="engagement-card reveal">
+          <img src="assets/icon-village.svg" alt="Village" class="engagement-icon">
+          <h3>Ancré localement</h3>
+          <p>Ancré dans la vie nyonsaise depuis toujours. Privatisation, plats à emporter, traiteur ponctuel.</p>
+        </div>
+        <div class="engagement-card reveal">
+          <img src="assets/icon-chevre.svg" alt="Chèvre" class="engagement-icon">
+          <h3>Producteurs locaux</h3>
+          <p>Nos fromages de chèvre viennent d'Augres, nos olives de Nyons. Le terroir dans l'assiette.</p>
+        </div>
+        <div class="engagement-card reveal">
+          <img src="assets/icon-gateau.svg" alt="Gâteau" class="engagement-icon">
+          <h3>Desserts signatures</h3>
+          <p>Pâtisseries maison, tiramisu glacé en été, sirops faits maison. La touche finale qui fait la différence.</p>
+        </div>
+        <div class="engagement-card reveal">
+          <img src="assets/icon-herbes.svg" alt="Herbes" class="engagement-icon">
+          <h3>Inspiration méditerranéenne</h3>
+          <p>Cuisine française enrichie de saveurs du sud : citron confit, olives, épices douces.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================
+       GALERIE PHOTOS
+       ============================================ -->
+  <section class="galerie" id="galerie">
+    <div class="container">
+      <span class="section-tag reveal">En images</span>
+      <h2 class="reveal">Notre Restaurant</h2>
+    </div>
+    <div class="galerie-grid reveal">
+      <div class="galerie-item">
+        <img src="assets/croco-photo-1.jpg" alt="Souris d'agneau et légumes de saison, cuisine ouverte du Croc'O" loading="lazy">
+      </div>
+      <div class="galerie-item">
+        <img src="assets/terrasse.jpg" alt="Terrasse du Croc'O avec tables dressées" loading="lazy">
+      </div>
+      <div class="galerie-item">
+        <img src="assets/croco-photo-3.jpg" alt="Feuilleté au chèvre chaud et salade composée" loading="lazy">
+      </div>
+      <div class="galerie-item">
+        <img src="assets/croco-photo-2.jpg" alt="Salade fraîche servie en tajine terre cuite" loading="lazy">
+      </div>
+      <div class="galerie-item">
+        <img src="assets/dessert-fondant.jpg" alt="Fondant chocolat coulis fruits rouges" loading="lazy">
+      </div>
+      <div class="galerie-item">
+        <img src="assets/pastilla-maison.jpg" alt="Pastilla maison" loading="lazy">
+      </div>
+      <div class="galerie-item">
+        <img src="assets/plat-salade.jpg" alt="Salade fraiche du Croc'O" loading="lazy">
+      </div>
+      <div class="galerie-item">
+        <img src="assets/ardoise-menu.jpg" alt="Ardoise du menu du jour" loading="lazy">
+      </div>
+      <div class="galerie-item">
+        <img src="assets/dessert-cheesecake.jpg" alt="Cheesecake fraise maison" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================
+       SECTION : ACTUALITES FACEBOOK
+       ============================================ -->
+  <section class="facebook-section" id="actualites">
+    <div class="container">
+      <h2 class="reveal">Actualités Facebook</h2>
+      <p class="facebook-subtitle reveal">Retrouvez nos dernières publications et actualités.</p>
+      <div class="facebook-widget reveal" id="fb-widget-container">
+        <!-- Chargé dynamiquement avec la bonne largeur -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================
+       SECTION : INFORMATIONS PRATIQUES & CONTACT
+       ============================================ -->
+  <section class="infos" id="infos">
+    <div class="container">
+      <span class="section-tag reveal">Bon à savoir</span>
+      <h2 class="reveal">Infos Pratiques & Contact</h2>
+      <p class="infos-intro reveal">Tout ce qu'il faut savoir avant votre visite au Croc'O.</p>
+
+      <!-- Message special dynamique via Google Sheet -->
+      <div class="info-message-special" id="info-message-special" style="display: none;">
+        <p id="info-message-text"></p>
+      </div>
+
+      <div class="infos-grid stagger-children carousel-container" data-carousel>
+        <div class="info-block reveal">
+          <img src="assets/icon-horloge.svg" alt="Horaires" class="info-block-icon">
+          <h3>Horaires</h3>
+          <p>Hors saison : <strong>12h – 15h30</strong></p>
+          <p>Pleine saison : <strong>12h – 15h</strong> &amp; <strong>19h – 21h</strong></p>
+          <p>Ouvert du mardi au samedi</p>
+          <p>Réservation conseillée</p>
+          <div class="info-jours" id="info-jours">
+            <span class="info-jour-tag info-jour-calme">Jour calme : <strong id="jour-calme">Mardi</strong></span>
+            <span class="info-jour-tag info-jour-marche">Jour de marché : <strong id="jour-marche">Jeudi</strong></span>
+          </div>
+        </div>
+
+        <div class="info-block reveal">
+          <img src="assets/icon-pin.svg" alt="Adresse" class="info-block-icon">
+          <h3>Adresse</h3>
+          <p>30 Place du Colonel Barrillon<br>26110 Nyons</p>
+          <div class="info-buttons">
+            <button class="btn btn-accent btn-sm" data-phone-trigger>Nous appeler</button>
+            <a href="https://www.google.com/maps/dir//30+Place+du+Colonel+Barillon,+26110+Nyons" target="_blank" rel="noopener" class="btn btn-outline-light btn-sm">Itinéraire</a>
+          </div>
+        </div>
+
+        <div class="info-block reveal">
+          <img src="assets/icon-services.svg" alt="Services" class="info-block-icon">
+          <h3>Services</h3>
+          <ul>
+            <li>Cuisine ouverte</li>
+            <li>Plats à emporter</li>
+            <li>Privatisation jusqu'à 20 pers.</li>
+            <li>Adaptation régimes alimentaires</li>
+          </ul>
+        </div>
+
+        <div class="info-block reveal">
+          <img src="assets/icon-terrasse.svg" alt="Sur place" class="info-block-icon">
+          <h3>Sur place</h3>
+          <ul>
+            <li>Terrasse ensoleillée</li>
+            <li>Accueil enfants</li>
+            <li>Options végétariennes</li>
+            <li>Accès PMR</li>
+          </ul>
+        </div>
+
+        <div class="info-block reveal">
+          <img src="assets/icon-paiement.svg" alt="Paiements" class="info-block-icon">
+          <h3>Paiements acceptés</h3>
+          <ul>
+            <li>Carte bancaire</li>
+            <li>Espèces</li>
+            <li>Chèque</li>
+            <li>Chèque-vacances Classic</li>
+            <li>Titre restaurant</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="contact-map reveal">
+        <iframe
+          src="https://maps.google.com/maps?q=946R%2B9R+Nyons&t=&z=17&ie=UTF8&iwloc=&output=embed"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Localisation du Croc'O à Nyons">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- ============================================
+       PHONE OVERLAY
+       ============================================ -->
+  <div class="phone-overlay" role="dialog" aria-label="Numéros de téléphone">
+    <button class="phone-overlay-close" aria-label="Fermér">&times;</button>
+    <div class="phone-overlay-content">
+      <img src="assets/icon-telephone.svg" alt="T\u00e9l\u00e9phone" class="phone-overlay-icon">
+      <h3>Appelez-nous !</h3>
+
+      <div class="phone-block">
+        <span class="phone-number-label">Fixe</span>
+        <span class="phone-number">04 75 26 18 43</span>
+        <div class="phone-actions">
+          <a href="tel:+33475261843" class="btn-phone btn-phone-call">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Appeler
+          </a>
+          <button class="btn-phone btn-phone-copy" data-copy="0475261843">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+            Copier
+          </button>
+        </div>
+      </div>
+
+      <p class="phone-overlay-hint">Réservation conseillée</p>
+    </div>
+  </div>
+
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-links">
+          <a href="mentions-legales.html">Mentions légales</a>
+          <span class="footer-dot"></span>
+          <a href="politique-confidentialite.html">Confidentialité</a>
+          <span class="footer-dot"></span>
+          <a href="https://www.instagram.com/croconyons/" target="_blank" rel="noopener">Instagram</a>
+          <span class="footer-dot"></span>
+          <a href="https://www.facebook.com/croco.nyons/?locale=fr_FR" target="_blank" rel="noopener">Facebook</a>
+        </div>
+        <p class="footer-copyright">&copy; 2026 Le Croc'O — Nyons</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-label="Image agrandie">
+    <button class="lightbox-close" aria-label="Fermer">&times;</button>
+    <button class="lightbox-prev" aria-label="Précédente">&#8249;</button>
+    <button class="lightbox-next" aria-label="Suivante">&#8250;</button>
+    <img class="lightbox-img" id="lightbox-img" src="" alt="">
+  </div>
+
+  <div class="scroll-progress" id="scroll-progress"></div>
+  <script src="js/main.js"></script>
+  <script src="js/effects.js"></script>
+  <!-- <script src="js/photos-updater.js"></script> -->
+</body>
+</html>

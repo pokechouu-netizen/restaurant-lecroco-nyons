@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conditions d'Utilisation du site La Pause de la Lance - Restaurant et Traiteur à Valréas">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Conditions d'Utilisation | La Pause de la Lance</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #8B0000;
+            --primary-dark: #6B0000;
+            --secondary: #8B0000;
+            --accent: #6B0000;
+            --cream: #8B0000;
+            --dark: #6B0000;
+            --text: #ffffff;
+            --text-light: #cccccc;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            color: var(--text);
+            background: var(--cream);
+            line-height: 1.7;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 500;
+        }
+
+        /* Navigation */
+        .navbar {
+            background: rgba(10, 10, 21, 0.95);
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 23, 68, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(20px);
+        }
+
+        .logo img {
+            height: 50px;
+            width: auto;
+            filter: drop-shadow(0 0 20px rgba(255, 23, 68, 0.6));
+        }
+
+        .back-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+            text-shadow: 0 0 10px rgba(255, 23, 68, 0.5);
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+            text-shadow: 0 0 20px rgba(255, 107, 107, 0.8);
+        }
+
+        /* Content */
+        .legal-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .legal-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            background: linear-gradient(135deg, #8B0000 0%, #6B0000 50%, #8B0000 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 30px rgba(255, 23, 68, 0.6);
+        }
+
+        .intro-text {
+            background: linear-gradient(145deg, rgba(26, 26, 46, 0.8), rgba(22, 33, 62, 0.8));
+            border: 2px solid rgba(255, 23, 68, 0.3);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .intro-text p {
+            color: var(--text);
+            font-size: 1.1rem;
+        }
+
+        .legal-content h2 {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid rgba(255, 23, 68, 0.4);
+            text-shadow: 0 0 20px rgba(255, 23, 68, 0.5);
+        }
+
+        .legal-content h3 {
+            font-size: 1.2rem;
+            color: #fff;
+            margin-top: 2rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .legal-content p {
+            margin-bottom: 1rem;
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+
+        .legal-content ul {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+        }
+
+        .legal-content li {
+            margin-bottom: 0.5rem;
+            color: var(--text-light);
+        }
+
+        .legal-content strong {
+            color: var(--text);
+        }
+
+        .legal-content a {
+            color: var(--primary);
+            text-decoration: none;
+            text-shadow: 0 0 10px rgba(255, 23, 68, 0.5);
+            transition: all 0.3s;
+        }
+
+        .legal-content a:hover {
+            color: var(--accent);
+            text-shadow: 0 0 20px rgba(255, 107, 107, 0.8);
+        }
+
+        .info-box {
+            background: linear-gradient(145deg, rgba(26, 26, 46, 0.8), rgba(22, 33, 62, 0.8));
+            border: 2px solid rgba(255, 23, 68, 0.3);
+            border-left: 4px solid var(--primary);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .info-box p {
+            margin-bottom: 0.5rem;
+        }
+
+        .info-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .last-update {
+            text-align: center;
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 23, 68, 0.2);
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(180deg, #0a0a15 0%, #000000 100%);
+            color: #fff;
+            padding: 2rem 5%;
+            text-align: center;
+            border-top: 1px solid rgba(255, 23, 68, 0.2);
+        }
+
+        footer p {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+            text-shadow: 0 0 10px rgba(255, 23, 68, 0.5);
+            transition: all 0.3s;
+        }
+
+        footer a:hover {
+            color: var(--accent);
+        }
+
+        @media (max-width: 768px) {
+            .legal-content {
+                padding: 2rem 1rem;
+            }
+
+            .legal-content h1 {
+                font-size: 2rem;
+            }
+
+            .legal-content h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="assets/asset2.png" alt="Le Croc'o">
+        </a>
+        <a href="index.html" class="back-link">
+            ← Retour au site
+        </a>
+    </nav>
+
+    <!-- Content -->
+    <main class="legal-content">
+        <h1>Conditions d'Utilisation</h1>
+
+        <div class="intro-text">
+            <p>En accédant et en naviguant sur le site de La Pause de la Lance, vous acceptez sans réserve les présentes Conditions Générales d'Utilisation.</p>
+        </div>
+
+        <h2>1. Objet</h2>
+        <p>Les présentes Conditions Générales d'Utilisation (ci-après « CGU ») ont pour objet de définir les modalités et conditions d'accès et d'utilisation du site internet <strong>La Pause de la Lance</strong>, accessible à l'adresse du site (ci-après « le Site »).</p>
+        <p>Le Site est édité par Guy MOIROUD, entrepreneur individuel, exploitant le restaurant et service traiteur « La Pause de la Lance » situé au 17 rue Pasteur, 84600 Valréas.</p>
+
+        <h2>2. Acceptation des CGU</h2>
+        <p>L'accès et l'utilisation du Site impliquent l'acceptation pleine et entière des présentes CGU. Si vous n'acceptez pas ces conditions, vous êtes invité à ne pas utiliser le Site.</p>
+        <p>La Pause de la Lance se réserve le droit de modifier les présentes CGU à tout moment. Les modifications prennent effet dès leur publication sur le Site. Il est conseillé de consulter régulièrement cette page.</p>
+
+        <h2>3. Accès au Site</h2>
+        <p>Le Site est accessible gratuitement à tout utilisateur disposant d'un accès à internet. Tous les coûts liés à l'accès au Site (matériel informatique, connexion internet, etc.) sont à la charge de l'utilisateur.</p>
+        <p>La Pause de la Lance met tout en œuvre pour assurer un accès continu au Site, mais ne peut garantir une disponibilité permanente. Le Site peut être temporairement indisponible pour des raisons de maintenance, de mise à jour ou pour toute autre raison technique, sans que cela ne puisse donner lieu à une quelconque indemnisation.</p>
+
+        <h2>4. Services proposés</h2>
+        <p>Le Site a pour vocation de présenter les activités de La Pause de la Lance, notamment :</p>
+        <ul>
+            <li>La présentation du restaurant et de sa carte</li>
+            <li>Les services de traiteur pour événements privés et professionnels</li>
+            <li>Le plat du jour et les menus en cours</li>
+            <li>Les événements et soirées à thème organisés</li>
+            <li>Les coordonnées et informations pratiques (horaires, localisation)</li>
+            <li>Les liens vers les réseaux sociaux (Facebook, Instagram)</li>
+        </ul>
+        <p>Les informations présentées sur le Site (menus, tarifs, horaires, événements) sont données à titre indicatif et peuvent être modifiées à tout moment sans préavis.</p>
+
+        <h2>5. Propriété intellectuelle</h2>
+        <p>L'ensemble du contenu du Site (textes, photographies, images, logo, icônes, mise en page, charte graphique, code source) est la propriété exclusive de La Pause de la Lance ou fait l'objet d'une autorisation d'utilisation, et est protégé par les lois françaises et internationales relatives à la propriété intellectuelle.</p>
+        <p>Toute reproduction, représentation, modification, publication, distribution, retransmission, ou exploitation de quelque manière que ce soit, de tout ou partie du contenu du Site, sans l'autorisation écrite préalable de La Pause de la Lance, est strictement interdite.</p>
+        <p>Le non-respect de cette interdiction constitue une contrefaçon pouvant engager la responsabilité civile et pénale du contrefacteur.</p>
+
+        <h2>6. Utilisation du Site</h2>
+        <p>L'utilisateur s'engage à utiliser le Site de manière conforme à sa destination et aux présentes CGU. Il s'engage notamment à :</p>
+        <ul>
+            <li>Ne pas utiliser le Site à des fins illicites ou contraires aux bonnes mœurs</li>
+            <li>Ne pas tenter de porter atteinte au bon fonctionnement du Site</li>
+            <li>Ne pas collecter ou extraire des données du Site de manière automatisée (scraping, robots, etc.)</li>
+            <li>Ne pas diffuser des contenus illicites, diffamatoires, injurieux ou portant atteinte aux droits de tiers</li>
+            <li>Ne pas introduire de virus, chevaux de Troie ou tout autre programme malveillant</li>
+        </ul>
+
+        <h2>7. Réservations et commandes</h2>
+        <p>Les réservations au restaurant et les demandes de devis traiteur s'effectuent par téléphone au <a href="tel:0678697854">06 78 69 78 54</a>. Le Site permet uniquement la prise de contact et ne constitue pas une plateforme de réservation en ligne.</p>
+        <p>Une réservation n'est considérée comme confirmée qu'après validation orale ou écrite de la part de La Pause de la Lance.</p>
+
+        <h2>8. Liens hypertextes</h2>
+
+        <h3>8.1 Liens sortants</h3>
+        <p>Le Site peut contenir des liens hypertextes vers des sites tiers (réseaux sociaux, partenaires, etc.). La Pause de la Lance n'exerce aucun contrôle sur le contenu de ces sites externes et décline toute responsabilité quant à leur contenu, leurs pratiques ou leur politique de confidentialité.</p>
+
+        <h3>8.2 Liens entrants</h3>
+        <p>La création de liens hypertextes vers le Site est autorisée sans accord préalable, à condition que ces liens ne portent pas atteinte à l'image de La Pause de la Lance et qu'ils ne constituent pas une pratique de « framing » ou de « deep linking ».</p>
+
+        <h2>9. Responsabilité</h2>
+        <p>La Pause de la Lance s'efforce de fournir sur le Site des informations aussi précises que possible. Toutefois, elle ne pourra être tenue responsable :</p>
+        <ul>
+            <li>Des omissions, inexactitudes ou erreurs pouvant figurer sur le Site</li>
+            <li>Des dommages résultant d'une intrusion frauduleuse d'un tiers ayant entraîné une modification des informations</li>
+            <li>Des dommages directs ou indirects causés au matériel de l'utilisateur lors de l'accès au Site</li>
+            <li>De l'utilisation faite par l'utilisateur des informations et contenus du Site</li>
+            <li>De l'indisponibilité temporaire ou permanente du Site</li>
+        </ul>
+
+        <h2>10. Données personnelles</h2>
+        <p>Le traitement des données personnelles collectées via le Site est régi par notre <a href="politique-confidentialite.html">Politique de confidentialité</a>, qui constitue un document distinct des présentes CGU.</p>
+        <p>En utilisant le Site, l'utilisateur reconnaît avoir pris connaissance de la Politique de confidentialité et accepte le traitement de ses données conformément à celle-ci.</p>
+
+        <h2>11. Cookies</h2>
+        <p>Le Site est susceptible d'utiliser des cookies. Pour en savoir plus sur l'utilisation des cookies et la gestion de vos préférences, veuillez consulter la section « Cookies » de notre <a href="politique-confidentialite.html">Politique de confidentialité</a>.</p>
+
+        <h2>12. Droit applicable et juridiction compétente</h2>
+        <p>Les présentes CGU sont régies par le droit français.</p>
+        <p>En cas de litige relatif à l'interprétation ou à l'exécution des présentes CGU, les parties s'efforceront de trouver une solution amiable. À défaut d'accord amiable, le litige sera soumis aux tribunaux compétents du ressort de la Cour d'appel de Nîmes.</p>
+
+        <h2>13. Contact</h2>
+        <p>Pour toute question relative aux présentes CGU, vous pouvez nous contacter :</p>
+        <div class="info-box">
+            <p><strong>La Pause de la Lance</strong></p>
+            <p>Guy MOIROUD</p>
+            <p>17 rue Pasteur, 84600 Valréas</p>
+            <p>Email : <a href="mailto:guymoiroud84@gmail.com">guymoiroud84@gmail.com</a></p>
+            <p>Téléphone : <a href="tel:0678697854">06 78 69 78 54</a></p>
+        </div>
+
+        <p class="last-update">Dernière mise à jour : Février 2026</p>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 La Pause de la Lance - Guy MOIROUD - Tous droits réservés</p>
+        <p style="margin-top: 0.5rem;">
+            <a href="index.html">Accueil</a> |
+            <a href="mentions-legales.html">Mentions légales</a> |
+            <a href="politique-confidentialite.html">Politique de confidentialité</a>
+        </p>
+    </footer>
+</body>
+</html>

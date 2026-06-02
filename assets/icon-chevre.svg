@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Corps -->
+  <ellipse cx="30" cy="38" rx="16" ry="12" fill="#F0E8D8"/>
+  <!-- Tête -->
+  <ellipse cx="48" cy="26" rx="8" ry="9" fill="#F0E8D8" stroke="#D8CDB8" stroke-width="0.8"/>
+  <!-- Cou -->
+  <path d="M38 30 C42 28 44 28 46 30" stroke="#D8CDB8" stroke-width="5" fill="#F0E8D8" stroke-linecap="round"/>
+  <!-- Cornes -->
+  <path d="M44 18 C42 12 40 8 38 6" stroke="#C8A870" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M52 18 C54 12 56 8 58 6" stroke="#C8A870" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Oreilles -->
+  <path d="M42 22 C38 20 36 22 38 24" fill="#E8C8A8" stroke="#D8B898" stroke-width="0.8"/>
+  <path d="M54 22 C58 20 60 22 58 24" fill="#E8C8A8" stroke="#D8B898" stroke-width="0.8"/>
+  <!-- Yeux -->
+  <circle cx="45" cy="25" r="2" fill="white"/>
+  <ellipse cx="45.5" cy="25" rx="1.2" ry="1.6" fill="#5A4020"/>
+  <circle cx="51" cy="25" r="2" fill="white"/>
+  <ellipse cx="51.5" cy="25" rx="1.2" ry="1.6" fill="#5A4020"/>
+  <!-- Museau -->
+  <ellipse cx="48" cy="30" rx="4" ry="3" fill="#E8D0B8" stroke="#D0B898" stroke-width="0.8"/>
+  <!-- Narines -->
+  <circle cx="46.5" cy="30" r="0.8" fill="#B89878"/>
+  <circle cx="49.5" cy="30" r="0.8" fill="#B89878"/>
+  <!-- Barbichette -->
+  <path d="M48 33 C47 38 46 42 47 44" stroke="#D8CDB8" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Pattes -->
+  <line x1="20" y1="48" x2="20" y2="58" stroke="#D8CDB8" stroke-width="3" stroke-linecap="round"/>
+  <line x1="28" y1="48" x2="28" y2="58" stroke="#D8CDB8" stroke-width="3" stroke-linecap="round"/>
+  <line x1="34" y1="48" x2="34" y2="58" stroke="#D8CDB8" stroke-width="3" stroke-linecap="round"/>
+  <line x1="40" y1="47" x2="40" y2="57" stroke="#D8CDB8" stroke-width="3" stroke-linecap="round"/>
+  <!-- Sabots -->
+  <rect x="18" y="56" width="4" height="3" rx="1" fill="#6B5040"/>
+  <rect x="26" y="56" width="4" height="3" rx="1" fill="#6B5040"/>
+  <rect x="32" y="56" width="4" height="3" rx="1" fill="#6B5040"/>
+  <rect x="38" y="55" width="4" height="3" rx="1" fill="#6B5040"/>
+  <!-- Queue -->
+  <path d="M14 34 C10 30 8 34 10 36" stroke="#D8CDB8" stroke-width="2" stroke-linecap="round" fill="none"/>
+</svg>

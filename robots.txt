@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://le-croco-nyons.fr/sitemap.xml

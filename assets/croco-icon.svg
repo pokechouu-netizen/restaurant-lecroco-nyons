@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 64">
+  <!-- Crocodile emoji style - vue de côté, forme simple -->
+
+  <!-- Queue (s'effile vers la gauche) -->
+  <path d="M22 26 C16 24 10 22 6 18 L4 16" stroke="#6B9E47" stroke-width="0" fill="#6B9E47"/>
+  <path d="M22 26 C16 24 10 22 6 18 C3 15 2 17 4 20 C6 23 10 28 14 32 C16 34 20 36 22 36Z" fill="#6B9E47"/>
+  <path d="M22 26 C16 24 10 22 6 18 C3 15 2 17 4 20 C6 23 10 28 14 32 C16 34 20 36 22 36Z" stroke="#4A7030" stroke-width="0.8" fill="none"/>
+  <!-- Pointe queue -->
+  <path d="M6 18 C3 14 1 15 2 17" fill="#5D8C3E"/>
+
+  <!-- Corps principal -->
+  <path d="M22 22 L68 22 C72 22 76 24 76 28 L76 34 C76 38 72 40 68 40 L22 40 C18 40 16 38 16 34 L16 28 C16 24 18 22 22 22Z" fill="#6B9E47"/>
+
+  <!-- Ventre -->
+  <path d="M20 34 L70 34 C72 34 74 36 74 38 L68 40 L22 40 C18 40 16 38 18 36Z" fill="#C8DE8C"/>
+
+  <!-- Tête (museau allongé) -->
+  <path d="M76 24 L104 20 C108 19 112 20 114 22 L116 24 C117 25 117 26 116 27 L76 30Z" fill="#6B9E47"/>
+
+  <!-- Mâchoire inférieure -->
+  <path d="M76 32 L116 35 C117 36 117 37 116 38 L114 40 C112 42 108 43 104 42 L76 38Z" fill="#5D8C3E"/>
+
+  <!-- Dents haut -->
+  <polygon points="82,27 84,30 86,27" fill="white"/>
+  <polygon points="90,26 92,29 94,26" fill="white"/>
+  <polygon points="98,25 100,28 102,25" fill="white"/>
+  <polygon points="106,24 107.5,27 109,24" fill="white"/>
+
+  <!-- Dents bas -->
+  <polygon points="85,33 87,30 89,33" fill="white"/>
+  <polygon points="93,34 95,31 97,34" fill="white"/>
+  <polygon points="101,35 103,32 105,35" fill="white"/>
+
+  <!-- Ligne bouche -->
+  <path d="M76 30 L116 27" stroke="#4A7030" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <path d="M76 32 L116 35" stroke="#4A7030" stroke-width="0.8" fill="none" opacity="0.5"/>
+
+  <!-- Narine -->
+  <circle cx="114" cy="22.5" r="1.2" fill="#4A7030"/>
+
+  <!-- Bosse oeil -->
+  <ellipse cx="78" cy="18" rx="6" ry="5" fill="#6B9E47" stroke="#4A7030" stroke-width="0.8"/>
+
+  <!-- Oeil -->
+  <circle cx="78" cy="17" r="3.5" fill="white"/>
+  <ellipse cx="79.5" cy="17" rx="1.8" ry="2.5" fill="#222"/>
+  <circle cx="80.5" cy="15.8" r="0.9" fill="white"/>
+
+  <!-- Écailles dorsales -->
+  <polygon points="30,22 33,14 36,22" fill="#5D8C3E"/>
+  <polygon points="38,22 41.5,12 45,22" fill="#5D8C3E"/>
+  <polygon points="47,22 50.5,13 54,22" fill="#5D8C3E"/>
+  <polygon points="55,22 58,14 61,22" fill="#5D8C3E"/>
+  <polygon points="63,22 65.5,15 68,22" fill="#5D8C3E"/>
+
+  <!-- Texture corps -->
+  <path d="M25 28 Q32 26 40 28 Q48 26 56 28 Q64 26 70 28" stroke="#5D8C3E" stroke-width="0.7" fill="none" opacity="0.4"/>
+</svg>
