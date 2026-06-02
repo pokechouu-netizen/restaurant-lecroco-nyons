@@ -10,6 +10,8 @@ locale: "fr"
 site_url: https://restaurant-lecroco-nyons.fr
 display_url: https://restaurant-lecroco-nyons.fr
 logo_url: https://restaurant-lecroco-nyons.fr/assets/logo2.png
+show_preview_links: true
+preview_path: /
 
 collections:
 
