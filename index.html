@@ -814,17 +814,10 @@
   <script src="js/main.js"></script>
   <script src="js/effects.js"></script>
 
-  <!-- Netlify Identity Widget -->
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <!-- Rediriger les liens d'invitation/récupération vers /admin/ qui gère le widget Identity -->
   <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on('init', user => {
-        // Ne PAS rediriger si déjà connecté — sinon le preview du CMS boucle sur /admin/
-        // Rediriger uniquement après un LOGIN explicite
-        window.netlifyIdentity.on('login', () => {
-          document.location.replace('/admin/');
-        });
-      });
+    if (location.hash.match(/access_token|confirmation_token|invite_token|recovery_token/)) {
+      window.location.replace('/admin/' + location.hash);
     }
   </script>
 </body>
