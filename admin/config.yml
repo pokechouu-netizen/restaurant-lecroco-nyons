@@ -1,0 +1,209 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+locale: "fr"
+
+site_url: https://restaurant-lecroco-nyons.fr
+display_url: https://restaurant-lecroco-nyons.fr
+logo_url: https://restaurant-lecroco-nyons.fr/assets/logo2.png
+
+collections:
+
+  # ════════════════════════════════════════════
+  - name: "infos"
+    label: "🏠 Infos restaurant"
+    files:
+      - file: "data/info.json"
+        name: "infos_principales"
+        label: "Coordonnées, horaires & réseaux"
+        format: "json"
+        fields:
+          - { label: "Téléphone (format +33...)", name: "phone",         widget: "string" }
+          - { label: "Téléphone affiché",          name: "phone_display", widget: "string" }
+          - { label: "Adresse complète",            name: "address",      widget: "string" }
+          - { label: "Sous-titre adresse",          name: "address_short",widget: "string" }
+          - { label: "URL Google Maps (lien itinéraire)", name: "maps_url", widget: "string" }
+          - label: "Horaires"
+            name: "horaires"
+            widget: "list"
+            summary: "{{fields.jour}} : {{fields.midi}} / {{fields.soir}}"
+            fields:
+              - { label: "Jour",  name: "jour", widget: "string" }
+              - { label: "Midi",  name: "midi", widget: "string", hint: "ex: 12h – 14h  ou  Fermé" }
+              - { label: "Soir",  name: "soir", widget: "string", hint: "ex: 19h – 21h30  ou  Fermé" }
+          - { label: "Jour calme (affiché dans infos)", name: "jour_calme",  widget: "string", required: false }
+          - { label: "Jour de marché",                  name: "jour_marche", widget: "string", required: false }
+          - { label: "Message spécial (laisser vide si rien)", name: "message_special", widget: "text", required: false }
+          - label: "Réseaux sociaux"
+            name: "social"
+            widget: "object"
+            fields:
+              - { label: "Lien Instagram", name: "instagram", widget: "string" }
+              - { label: "Lien Facebook",  name: "facebook",  widget: "string" }
+          - { label: "Copyright (footer)", name: "copyright", widget: "string", required: false }
+
+  # ════════════════════════════════════════════
+  - name: "photos"
+    label: "📸 Photos du site"
+    files:
+      - file: "data/photos.json"
+        name: "toutes_photos"
+        label: "Toutes les photos"
+        format: "json"
+        fields:
+          - { label: "Photo du Hero (image principale)",   name: "hero",     widget: "image" }
+          - { label: "Photo section Notre Histoire",        name: "histoire", widget: "image" }
+          - label: "Galerie (9 photos)"
+            name: "galerie"
+            widget: "list"
+            summary: "{{fields.alt}}"
+            fields:
+              - { label: "Image",           name: "src", widget: "image" }
+              - { label: "Description alt", name: "alt", widget: "string" }
+
+  # ════════════════════════════════════════════
+  - name: "menu_du_jour"
+    label: "📋 Menu du Jour"
+    files:
+      - file: "data/menu-du-jour.json"
+        name: "menu_jour"
+        label: "Menu du jour (mis à jour chaque matin)"
+        format: "json"
+        fields:
+          - { label: "Prix de la formule (ex: 21,90 €)", name: "prix",    widget: "string" }
+          - { label: "Description formule",               name: "formule", widget: "string" }
+          - label: "Plats du jour"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.titre}}"
+            fields:
+              - { label: "Nom du plat",    name: "titre",       widget: "string" }
+              - { label: "Précision",      name: "description", widget: "string", required: false }
+
+  # ════════════════════════════════════════════
+  - name: "carte"
+    label: "🍽️ La Carte"
+    files:
+      - file: "data/dishes.json"
+        name: "plats"
+        label: "Tous les plats de la carte"
+        format: "json"
+        fields:
+
+          - label: "Entrées"
+            name: "entrees"
+            widget: "list"
+            summary: "{{fields.nom}} — {{fields.prix}}"
+            fields:
+              - { label: "Nom",         name: "nom",         widget: "string" }
+              - { label: "Description", name: "description", widget: "string", required: false }
+              - { label: "Prix",        name: "prix",        widget: "string" }
+
+          - label: "Plats"
+            name: "plats"
+            widget: "list"
+            summary: "{{fields.nom}} — {{fields.prix}}"
+            fields:
+              - { label: "Nom",         name: "nom",         widget: "string" }
+              - { label: "Description", name: "description", widget: "string", required: false }
+              - { label: "Prix",        name: "prix",        widget: "string" }
+
+          - label: "Fromages"
+            name: "fromages"
+            widget: "list"
+            summary: "{{fields.nom}} — {{fields.prix}}"
+            fields:
+              - { label: "Nom",         name: "nom",         widget: "string" }
+              - { label: "Description", name: "description", widget: "string", required: false }
+              - { label: "Prix",        name: "prix",        widget: "string" }
+
+          - label: "Desserts"
+            name: "desserts"
+            widget: "list"
+            summary: "{{fields.nom}} — {{fields.prix}}"
+            fields:
+              - { label: "Nom",         name: "nom",         widget: "string" }
+              - { label: "Description", name: "description", widget: "string", required: false }
+              - { label: "Prix",        name: "prix",        widget: "string" }
+
+          - label: "Glaces Artisanales"
+            name: "glaces_artisanales"
+            widget: "list"
+            summary: "{{fields.nom}}"
+            fields:
+              - { label: "Nom",         name: "nom",         widget: "string" }
+              - { label: "Description", name: "description", widget: "string", required: false }
+
+          - label: "Sorbets"
+            name: "sorbets"
+            widget: "list"
+            summary: "{{fields.nom}}"
+            fields:
+              - { label: "Nom",         name: "nom",         widget: "string" }
+              - { label: "Description", name: "description", widget: "string", required: false }
+
+          - label: "Tarifs Glaces"
+            name: "glaces_tarifs"
+            widget: "list"
+            summary: "{{fields.label}} — {{fields.prix}}"
+            fields:
+              - { label: "Label (ex: 1 boule)", name: "label", widget: "string" }
+              - { label: "Prix",                name: "prix",  widget: "string" }
+
+          - label: "Boissons — Alcools"
+            name: "boissons_alcools"
+            widget: "list"
+            summary: "{{fields.nom}} — {{fields.prix}}"
+            fields:
+              - { label: "Nom",         name: "nom",         widget: "string" }
+              - { label: "Description", name: "description", widget: "string", required: false }
+              - { label: "Prix",        name: "prix",        widget: "string" }
+
+          - label: "Boissons — Sans Alcool"
+            name: "boissons_sans_alcool"
+            widget: "list"
+            summary: "{{fields.nom}} — {{fields.prix}}"
+            fields:
+              - { label: "Nom",         name: "nom",         widget: "string" }
+              - { label: "Description", name: "description", widget: "string", required: false }
+              - { label: "Prix",        name: "prix",        widget: "string" }
+
+          - label: "Vins"
+            name: "vins"
+            widget: "list"
+            summary: "{{fields.nom}} — {{fields.prix}}"
+            fields:
+              - { label: "Nom",         name: "nom",         widget: "string" }
+              - { label: "Description", name: "description", widget: "string", required: false }
+              - { label: "Prix",        name: "prix",        widget: "string" }
+
+          - label: "Boissons Chaudes"
+            name: "boissons_chaudes"
+            widget: "list"
+            summary: "{{fields.nom}} — {{fields.prix}}"
+            fields:
+              - { label: "Nom",         name: "nom",         widget: "string" }
+              - { label: "Description", name: "description", widget: "string", required: false }
+              - { label: "Prix",        name: "prix",        widget: "string" }
+
+          - label: "Enfants — Menu Enfant"
+            name: "enfants_menu"
+            widget: "list"
+            summary: "{{fields.nom}} — {{fields.prix}}"
+            fields:
+              - { label: "Nom",         name: "nom",         widget: "string" }
+              - { label: "Description", name: "description", widget: "string", required: false }
+              - { label: "Prix",        name: "prix",        widget: "string" }
+
+          - label: "Enfants — Goûter"
+            name: "gouter"
+            widget: "list"
+            summary: "{{fields.nom}} — {{fields.prix}}"
+            fields:
+              - { label: "Nom",         name: "nom",         widget: "string" }
+              - { label: "Description", name: "description", widget: "string", required: false }
+              - { label: "Prix",        name: "prix",        widget: "string" }

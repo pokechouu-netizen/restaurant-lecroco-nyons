@@ -1,0 +1,87 @@
+{
+  "entrees": [
+    { "nom": "Entrée du jour",    "description": "", "prix": "5,90 €" },
+    { "nom": "Affinade de Nyons", "description": "", "prix": "7,90 €" }
+  ],
+  "plats": [
+    { "nom": "Plat du jour",                       "description": "Servi avec légumes de saison", "prix": "" },
+    { "nom": "Burrata en salade repas",             "description": "", "prix": "15,50 €" },
+    { "nom": "Tajine poulet citron olives",         "description": "", "prix": "15,90 €" },
+    { "nom": "Assiette végane",                     "description": "", "prix": "16,90 €" },
+    { "nom": "Curry d'agneau et riz basmati",       "description": "", "prix": "17,90 €" },
+    { "nom": "Tataki de thon",                      "description": "", "prix": "17,90 €" },
+    { "nom": "Ravioles gratinées aux écrevisses",   "description": "", "prix": "18,90 €" },
+    { "nom": "Entrecôte sauce aux cèpes",           "description": "", "prix": "19,50 €" },
+    { "nom": "Souris d'agneau",                     "description": "", "prix": "23,90 €" }
+  ],
+  "fromages": [
+    { "nom": "Assiette de fromage", "description": "", "prix": "6,00 €" }
+  ],
+  "desserts": [
+    { "nom": "Moelleux Chocolat",  "description": "Coulis de framboise", "prix": "6,00 €" },
+    { "nom": "Tiramisu Café",      "description": "", "prix": "6,00 €" },
+    { "nom": "Tarte du Jour",      "description": "", "prix": "6,00 €" },
+    { "nom": "Dessert du Jour",    "description": "", "prix": "6,00 €" },
+    { "nom": "Nougat Glacé",       "description": "Coulis de framboise", "prix": "6,00 €" }
+  ],
+  "glaces_artisanales": [
+    { "nom": "Café",              "description": "100% Arabica" },
+    { "nom": "Caramel Beurre Salé","description": "Au sel de Guérande" },
+    { "nom": "Chocolat",          "description": "Cœur de Guanaja 80% Valrhona" },
+    { "nom": "Pistache",          "description": "Pâte de pistache de Sicile, éclats" },
+    { "nom": "Spéculoos",         "description": "Véritables biscuits Lotus" },
+    { "nom": "Vanille",           "description": "Bourbon de Madagascar, beurre d'Échiré" }
+  ],
+  "sorbets": [
+    { "nom": "Citron",    "description": "Citron de Sicile" },
+    { "nom": "Coco",      "description": "Lait de coco de l'océan Indien" },
+    { "nom": "Fraise",    "description": "Fraise Sengana, 62% de fruits" },
+    { "nom": "Framboise", "description": "52% de fruits" },
+    { "nom": "Mangue",    "description": "Alphonso et Totapuri" },
+    { "nom": "Passion",   "description": "Fruit de la passion, 41% de fruits" }
+  ],
+  "glaces_tarifs": [
+    { "label": "1 boule",              "prix": "3,00 €" },
+    { "label": "2 boules",             "prix": "5,00 €" },
+    { "label": "3 boules",             "prix": "6,00 €" },
+    { "label": "+ Crème fouettée",     "prix": "0,50 €" }
+  ],
+  "boissons_alcools": [
+    { "nom": "Digestif",                "description": "Liqueur de thym, Jet",              "prix": "6,00 €" },
+    { "nom": "Pastis artisanal ou Ricard","description": "",                                "prix": "4,00 €" },
+    { "nom": "Kir, Martini blanc",      "description": "",                                  "prix": "4,50 €" },
+    { "nom": "Le Planteur du Croc'O",   "description": "",                                  "prix": "4,00 €" },
+    { "nom": "Bière La Grihète 33 cl",  "description": "Blonde, blanche, ambrée — Nyons",  "prix": "4,50 €" },
+    { "nom": "Bivouak 33 cl",           "description": "Blonde, ambrée, blanche, Tangente", "prix": "4,50 €" }
+  ],
+  "boissons_sans_alcool": [
+    { "nom": "Jus de fruit de pays 25 cl", "description": "Pomme, poire, abricot",                      "prix": "3,00 €" },
+    { "nom": "Sirop maison 50 cl",         "description": "Gingembre, fleur de thym, menthe poivrée",   "prix": "2,50 €" },
+    { "nom": "Sirop d'Eyguebelle 50 cl",   "description": "",                                           "prix": "2,50 €" },
+    { "nom": "Diabolo",                    "description": "",                                           "prix": "3,00 €" },
+    { "nom": "Soda 33 cl",                 "description": "",                                           "prix": "3,00 €" },
+    { "nom": "Eau en bouteille 50 cl",     "description": "",                                           "prix": "2,00 €" },
+    { "nom": "Eau gazeuse 50 cl",          "description": "",                                           "prix": "3,00 €" }
+  ],
+  "vins": [
+    { "nom": "Rouge Côte du Rhône Village Sablet", "description": "Bouteille 75 cl",                      "prix": "17,50 €" },
+    { "nom": "Rosé AOP Gigondas",                  "description": "Bouteille 75 cl",                      "prix": "19,50 €" },
+    { "nom": "Pichet 50 cl",                       "description": "Rouge AOP Grignan / Rosé & Blanc IGP", "prix": "11,00 €" },
+    { "nom": "Pichet 25 cl",                       "description": "",                                     "prix": "6,50 €" },
+    { "nom": "Le verre 15 cl",                     "description": "",                                     "prix": "4,00 €" }
+  ],
+  "boissons_chaudes": [
+    { "nom": "Cappuccino",        "description": "", "prix": "3,50 €" },
+    { "nom": "Chocolat chaud",    "description": "", "prix": "3,00 €" },
+    { "nom": "Café ou noisette",  "description": "", "prix": "1,70 €" },
+    { "nom": "Café au lait",      "description": "", "prix": "3,00 €" },
+    { "nom": "Thé ou infusion",   "description": "", "prix": "2,00 €" }
+  ],
+  "enfants_menu": [
+    { "nom": "1 Plat + 1 Dessert + Sirop", "description": "Ravioles beurre blanc ou poulet au curry", "prix": "12,00 €" }
+  ],
+  "gouter": [
+    { "nom": "1 Gaufre + 1 Boisson",  "description": "Thé, café, chocolat chaud, sirop, soda", "prix": "6,50 €" },
+    { "nom": "1 Dessert + 1 Boisson", "description": "Thé, café, chocolat chaud, sirop, soda", "prix": "7,50 €" }
+  ]
+}

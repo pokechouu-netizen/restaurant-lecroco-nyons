@@ -1,0 +1,15 @@
+{
+  "hero": "/assets/hero.webp",
+  "histoire": "/assets/ambiance-table.jpg",
+  "galerie": [
+    { "src": "/assets/croco-photo-1.jpg",  "alt": "Souris d'agneau et légumes de saison, cuisine ouverte du Croc'O" },
+    { "src": "/assets/terrasse.jpg",        "alt": "Terrasse du Croc'O avec tables dressées" },
+    { "src": "/assets/croco-photo-3.jpg",   "alt": "Feuilleté au chèvre chaud et salade composée" },
+    { "src": "/assets/croco-photo-2.jpg",   "alt": "Salade fraîche servie en tajine terre cuite" },
+    { "src": "/assets/dessert-fondant.jpg", "alt": "Fondant chocolat coulis fruits rouges" },
+    { "src": "/assets/pastilla-maison.jpg", "alt": "Pastilla maison" },
+    { "src": "/assets/plat-salade.jpg",     "alt": "Salade fraîche du Croc'O" },
+    { "src": "/assets/ardoise-menu.jpg",    "alt": "Ardoise du menu du jour" },
+    { "src": "/assets/dessert-cheesecake.jpg", "alt": "Cheesecake fraise maison" }
+  ]
+}

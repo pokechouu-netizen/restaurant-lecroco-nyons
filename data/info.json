@@ -1,0 +1,25 @@
+{
+  "phone": "+33475261843",
+  "phone_display": "04 75 26 18 43",
+  "address": "30 Place du Colonel Barrillon, 26110 Nyons",
+  "address_short": "Nyons — Drôme Provençale",
+  "maps_url": "https://www.google.com/maps/dir//30+Place+du+Colonel+Barillon,+26110+Nyons",
+  "maps_embed": "https://maps.google.com/maps?q=946R%2B9R+Nyons&t=&z=17&ie=UTF8&iwloc=&output=embed",
+  "horaires": [
+    { "jour": "Lundi",    "midi": "Fermé",      "soir": "Fermé" },
+    { "jour": "Mardi",    "midi": "12h – 14h",  "soir": "Fermé" },
+    { "jour": "Mercredi", "midi": "12h – 14h",  "soir": "Fermé" },
+    { "jour": "Jeudi",    "midi": "12h – 14h",  "soir": "19h – 21h30" },
+    { "jour": "Vendredi", "midi": "12h – 14h",  "soir": "19h – 21h30" },
+    { "jour": "Samedi",   "midi": "12h – 14h",  "soir": "19h – 21h30" },
+    { "jour": "Dimanche", "midi": "Fermé",      "soir": "Fermé" }
+  ],
+  "jour_calme": "Mardi",
+  "jour_marche": "Jeudi",
+  "message_special": "",
+  "social": {
+    "instagram": "https://www.instagram.com/croconyons/",
+    "facebook": "https://www.facebook.com/croco.nyons/?locale=fr_FR"
+  },
+  "copyright": "© 2026 Le Croc'O — Nyons"
+}

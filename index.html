@@ -810,8 +810,27 @@
   </div>
 
   <div class="scroll-progress" id="scroll-progress"></div>
+  <script src="js/cms-render.js"></script>
   <script src="js/main.js"></script>
   <script src="js/effects.js"></script>
-  <!-- <script src="js/photos-updater.js"></script> -->
+
+  <!-- Netlify Identity Widget -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', user => {
+        if (user) {
+          document.location.replace('/admin/');
+        } else {
+          window.netlifyIdentity.on('login', () => {
+            document.location.replace('/admin/');
+          });
+        }
+      });
+      if (location.hash.match(/access_token|confirmation_token|invite_token|recovery_token/)) {
+        history.replaceState(null, '', location.pathname + location.search);
+      }
+    }
+  </script>
 </body>
 </html>

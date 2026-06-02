@@ -1,0 +1,9 @@
+{
+  "prix": "21,90 €",
+  "formule": "Entrée + Plat + Dessert — notre best-seller !",
+  "items": [
+    { "titre": "Entrée du jour", "description": "" },
+    { "titre": "Plat du jour",   "description": "" },
+    { "titre": "Dessert du jour","description": "" }
+  ]
+}
