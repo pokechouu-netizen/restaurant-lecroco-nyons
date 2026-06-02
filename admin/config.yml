@@ -1,8 +1,6 @@
 backend:
-  name: github
-  repo: pokechouu-netizen/restaurant-lecroco-nyons
+  name: git-gateway
   branch: main
-  base_url: https://api.netlify.com
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
