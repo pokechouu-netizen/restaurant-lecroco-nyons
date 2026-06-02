@@ -57,15 +57,25 @@ collections:
         label: "Toutes les photos"
         format: "json"
         fields:
-          - { label: "Photo du Hero (image principale)",   name: "hero",     widget: "image" }
-          - { label: "Photo section Notre Histoire",        name: "histoire", widget: "image" }
+          - label: "Photo du Hero (image principale)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Image",                name: "src", widget: "image" }
+              - { label: "Nom / Description alt", name: "alt", widget: "string", default: "Le Croc'O — restaurant à Nyons" }
+          - label: "Photo section Notre Histoire"
+            name: "histoire"
+            widget: "object"
+            fields:
+              - { label: "Image",                name: "src", widget: "image" }
+              - { label: "Nom / Description alt", name: "alt", widget: "string", default: "Ambiance du restaurant Le Croc'O" }
           - label: "Galerie (9 photos)"
             name: "galerie"
             widget: "list"
             summary: "{{fields.alt}}"
             fields:
-              - { label: "Image",           name: "src", widget: "image" }
-              - { label: "Description alt", name: "alt", widget: "string" }
+              - { label: "Image",                name: "src", widget: "image" }
+              - { label: "Nom / Description alt", name: "alt", widget: "string" }
 
   # ════════════════════════════════════════════
   - name: "menu_du_jour"

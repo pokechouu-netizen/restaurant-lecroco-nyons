@@ -1,6 +1,6 @@
 {
-  "hero": "/assets/hero.webp",
-  "histoire": "/assets/ambiance-table.jpg",
+  "hero": { "src": "/assets/hero.webp", "alt": "Le Croc'O — restaurant à Nyons" },
+  "histoire": { "src": "/assets/ambiance-table.jpg", "alt": "Ambiance du restaurant Le Croc'O, table dressée avec produits frais" },
   "galerie": [
     { "src": "/assets/croco-photo-1.jpg",  "alt": "Souris d'agneau et légumes de saison, cuisine ouverte du Croc'O" },
     { "src": "/assets/terrasse.jpg",        "alt": "Terrasse du Croc'O avec tables dressées" },

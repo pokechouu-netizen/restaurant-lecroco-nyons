@@ -279,13 +279,19 @@
     // Hero background
     if (photos.hero) {
       const heroImg = document.querySelector('.hero-bg-image');
-      if (heroImg) heroImg.src = photos.hero;
+      if (heroImg) {
+        heroImg.src = photos.hero.src || photos.hero;
+        if (photos.hero.alt) heroImg.alt = photos.hero.alt;
+      }
     }
 
     // Photo histoire
     if (photos.histoire) {
       const histImg = document.querySelector('.histoire-image-wrapper img');
-      if (histImg) histImg.src = photos.histoire;
+      if (histImg) {
+        histImg.src = photos.histoire.src || photos.histoire;
+        if (photos.histoire.alt) histImg.alt = photos.histoire.alt;
+      }
     }
 
     // Galerie
